@@ -1,0 +1,27 @@
+.todo-list-container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .add-todo {
+    margin-bottom: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item .completed {
+    text-decoration: line-through;
+  }
+  
+  .todo-item button {
+    margin-left: 10px;
+  }
+  
